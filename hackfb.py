@@ -23,8 +23,7 @@ def jalan(z):
         time.sleep(0.01)
 
 
-logo = !/system/xbin/bash
-#Manusia tidak dirancang untuk gagal, 
+logo =#Manusia tidak dirancang untuk gagal, 
 #Tapi manusia-lah yang gagal untuk merancang 
 #Jangan melihat masa lalu dengan penyesalan,
 #Jangan pula melihat masa depan dengan ketakutan
