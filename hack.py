@@ -65,14 +65,14 @@ def login():
         os.system('clear')
         print logo
         print 40 * '\x1b[1;97m\xe2\x95\x90'
-        print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN AKUN FACEBOOK AKUN FB \x1b[1;91m[\xe2\x98\x86]'
+        print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mLOGIN LOGIN DULU SU \x1b[1;91m[\xe2\x98\x86]'
         id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername FB \x1b[1;91m:\x1b[1;92m ')
         pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword FB \x1b[1;91m:\x1b[1;92m ')
         tik()
         try:
             br.open('https://m.facebook.com')
         except mechanize.URLError:
-            print '\n\x1b[1;91m[!] Tidak ada koneksi'
+            print '\n\x1b[1;91m[!] Beli kuota dulu cuk'
             keluar()
 
         br._factory.is_html = True
@@ -148,7 +148,7 @@ def menu():
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Nama \x1b[1;91m: \x1b[1;92m' + nama
     print '\x1b[1;97m\xe2\x95\x9a' + 40 * '\xe2\x95\x90'
     print '\x1b[1;37;40m1. Informasi Pengguna'
-    print '\x1b[1;37;40m2. Hack Akun Facebook'
+    print '\x1b[1;37;40m2. Maling Akun Facebook'
     print '\x1b[1;37;40m3. Bot               '
     print '\x1b[1;37;40m4. Lainnya....       '
     print '\x1b[1;37;40m5. LogOut            '
